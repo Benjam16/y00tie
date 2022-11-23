@@ -1,0 +1,15 @@
+HTTrack3.49-2 launched on Tue, 22 Nov 2022 23:55:34 at https://boredy00tsac.xyz/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://boredy00tsac.xyz/ -O "/Users/oneilbenjamin/websites/y00tssape" -n -%P -N100 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:58:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js
+23:58:37	Warning: 	HTML file (9366 bytes) retransferred due to lack of cache: https://boredy00tsac.xyz/index.html
+23:58:38	Error: 	"Not Found" (404) at link https://boredy00tsac.xyz/assets/webfonts/fa-v4compatibility.woff2 (from https://boredy00tsac.xyz/assets/css/all.min.css)
+23:58:38	Error: 	"Not Found" (404) at link https://boredy00tsac.xyz/assets/webfonts/fa-v4compatibility.ttf (from https://boredy00tsac.xyz/assets/css/all.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 4 seconds : 49 links scanned, 51 files written (11847663 bytes overall) [6631230 bytes received at 36039 bytes/sec], 5850448 bytes transferred using HTTP compression in 46 files, ratio 61%, 4.3 requests per connection
+(2 errors, 2 warnings, 0 messages)
